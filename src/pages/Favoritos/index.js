@@ -19,7 +19,7 @@ function Favoritos() {
    let filtroFilmes = filmes.filter((item) => item.id !== id);
     setFilmes(filtroFilmes);
     localStorage.setItem("@primeflix", JSON.stringify(filtroFilmes));
-    toast.success("Filme removido com sucesso!");
+    toast.success("Movie removed successfully!");
   }
 
   // Render the favorites list
