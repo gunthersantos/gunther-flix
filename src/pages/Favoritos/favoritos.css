@@ -1,0 +1,123 @@
+.meus-filmes {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+}
+
+.meus-filmes h1 {
+  margin: 20px 0;
+  color: #2F2F2F;
+  font-weight: bold;
+  text-align: center;
+}
+
+.meus-filmes span {
+  display: block;
+  text-align: center;
+  color: #2F2F2F;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.meus-filmes ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Mantém flex para controle */
+  flex-direction: column; /* Força lista vertical */
+  gap: 20px; /* Espaçamento entre itens */
+  align-items: center; /* Centraliza itens horizontalmente */
+}
+
+.meus-filmes li {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Largura máxima ajustada para desktop */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meus-filmes li span {
+  font-size: 18px;
+  color: #2F2F2F;
+  text-align: center;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meus-filmes li div {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.meus-filmes a {
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: #1E90FF;
+  color: #FFF;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  flex: 1;
+}
+
+.meus-filmes a:hover {
+  background-color: #1677cc;
+}
+
+.meus-filmes button {
+  padding: 8px 16px;
+  background-color: #FF4444;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.meus-filmes button:hover {
+  background-color: #CC0000;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+  .meus-filmes li {
+    max-width: 100%; /* Itens ocupam 100% em telas menores */
+  }
+
+  .meus-filmes li div {
+    flex-direction: column; /* Empilha link e botão */
+    gap: 5px;
+  }
+
+  .meus-filmes a, .meus-filmes button {
+    flex: none;
+    width: 100%; /* Ocupa largura total */
+  }
+}
+
+@media (max-width: 480px) {
+  .meus-filmes h1 {
+    font-size: 24px;
+  }
+
+  .meus-filmes span {
+    font-size: 14px;
+  }
+
+  .meus-filmes li span {
+    font-size: 16px;
+  }
+}

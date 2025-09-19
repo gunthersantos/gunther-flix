@@ -1,0 +1,81 @@
+.filme-info {
+  margin: 0 auto;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0 20px; /* Margem interna para espaçamento */
+  background-color: #F5F5F5;
+}
+
+.filme-info h1 {
+  margin: 14px 0;
+  color: #2F2F2F;
+  font-weight: bold; /* Título do filme em negrito */
+}
+
+.filme-info img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  max-height: 340px;
+  object-fit: contain;
+}
+
+.filme-info h3 {
+  margin-top: 14px;
+  color: #2F2F2F;
+  font-weight: bold; /* "Sinopse" em negrito */
+}
+
+.filme-info p {
+  margin: 8px 0;
+  color: #2F2F2F !important;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.filme-info strong {
+  color: #2F2F2F;
+  font-weight: bold; /* "Avaliação" em negrito */
+  margin-top: 10px;
+  display: block;
+}
+
+.area-buttons {
+  margin: 20px 0; /* Margem superior e inferior para afastar botões */
+  display: flex;
+  gap: 12px; /* Espaçamento entre botões */
+}
+
+.area-buttons button {
+  margin-right: 0; /* Remove margem direita antiga */
+  margin-left: 0;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: #1E90FF; /* Cor primária */
+  color: #FFF;
+}
+
+.area-buttons button:hover {
+  background-color: #1677cc; /* Tom mais escuro */
+}
+
+.area-buttons a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  padding: 12px;
+  /* background-color: #1677cc; Cor secundária */
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.area-buttons a:hover {
+  /* background-color: #e0c700; Tom mais escuro */
+}

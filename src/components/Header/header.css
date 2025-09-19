@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  background-color: #1E90FF; /* Cor primária da nova paleta */
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.favoritos {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FFD700; /* Cor secundária */
+  padding: 5px 14px;
+  color: #2F2F2F; /* Cor de texto */
+  border-radius: 4px;
+}
+
+.favoritos:hover {
+  background-color: #e0c700; /* Hover para feedback */
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  .logo, .favoritos {
+    margin: 5px 0;
+  }
+}
