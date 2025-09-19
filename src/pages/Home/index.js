@@ -24,7 +24,7 @@ function Home() {
         setFilmes(results); // Update state with fetched movies
         setLoading(false); // Stop loading
       } catch (error) {
-        console.error("Error in Home:", error);// Log any errors
+        // console.error("Error in Home:", error);// Log any errors
         setLoading(false);
         toast.error("Error loading movies!"); // Notify user of error
       }

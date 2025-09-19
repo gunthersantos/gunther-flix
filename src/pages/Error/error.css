@@ -60,49 +60,85 @@ body.light .switcher .text {
   color: #2F2F2F; /* Cor de texto da paleta */
 }
 
-/* Info */
+/* Caixa de informações */
 .info {
-  position: relative;
-  z-index: 999;
-  margin-top: 200px;
-  margin-bottom: 60px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; /* garante centralização */
+}
+
+.info h1 {
+  font-size: 120px;
+  font-weight: 900;
+  color: #1E2A55;
+  margin-bottom: 10px;
+}
+
+.info h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1E2A55;
+  margin-bottom: 8px;
 }
 
 .info p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #1b334d;
-  margin: 30px 0;
+   font-size: 16px;
+  color: #444;
+  margin-bottom: 30px;
 }
 
 .info img {
   max-width: 100%;
   height: auto;
+  margin: 20% auto 30px;
 }
 
 /* Button */
+.info .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* espaço entre botões */
+  flex-wrap: wrap; /* em telas pequenas empilha */
+}
+
 .btn {
-  font-size: 18px;
+   font-size: 16px;
   font-weight: 600;
-  color: #2F2F2F; /* Cor de texto da paleta */
-  border: 0px solid;
-  border-bottom: 2px solid;
-  border-color: #FFD700; /* Cor secundária da paleta */
-  padding: 10px 41px;
-  border-radius: 5px;
-  background: none;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 10px 20px 10px 0;
-  background-color: #1E90FF; /* Cor primária da paleta */
-  transition: all 0.5s ease-in-out;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
+  display: inline-block;
+  min-width: 160px;
+  text-align: center;
 }
 
 .btn:hover {
   background: #1677cc; /* Tom mais escuro da primária */
   color: #ffffff;
   text-decoration: none;
+}
+
+/* Botão voltar */
+.btn-voltar {
+  background-color: #FFD700;
+  color: #2F2F2F;
+}
+.btn-voltar:hover {
+  background-color: #e0c700;
+}
+
+Botão home
+.btn-home {
+  background-color: #1E90FF;
+  color: #FFF;
+  border: solid 2px #1E90FF;
+}
+.btn-home:hover {
+  background-color: #1677cc;
 }
 
 /* Theme Toggle */
