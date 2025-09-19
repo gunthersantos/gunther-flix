@@ -79,7 +79,7 @@ Gunther Flix is a **React.js web application** inspired and improved from the co
 
 [404 Page Desktop] *Animated 404 page using Framer Motion* <br>
 <img width="942" height="811" alt="image" src="https://github.com/user-attachments/assets/6e089dfb-a949-49fa-919f-b831d512ab61" /> <br>
-[Favorites Mobile] *Animated 404 page using Framer Motion* <br>
+[404 Page Mobile] *Animated 404 page using Framer Motion* <br>
 <img width="215" height="620" alt="image" src="https://github.com/user-attachments/assets/3217fc97-040e-4e4f-9c0e-d759a900bc48" />  <br>
 
 ---
